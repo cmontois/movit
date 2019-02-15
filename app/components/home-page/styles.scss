@@ -1,0 +1,14 @@
+.container {
+  height: 100%;
+  width: 100%;
+
+  div.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a {
+      font-size: 3rem;
+    }
+  }
+}

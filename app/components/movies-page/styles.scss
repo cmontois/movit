@@ -1,0 +1,26 @@
+.container {
+  height: 100%;
+  width: 100%;
+
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+
+    .col {
+      max-width: 200px;
+      min-height: 400px;
+      margin: 3px;
+
+      img {
+        min-height: 300px;
+        max-height: 300px;
+      }
+
+      div {
+        font-size: 1.5em;
+        background-color: grey;
+        border-color: grey;
+      }
+    }
+  }
+}
